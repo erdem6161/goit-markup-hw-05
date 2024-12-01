@@ -726,8 +726,6 @@ header {
 
 .form-input-icon {
   position: absolute;
-  width: 18px;
-  height: 24px;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
@@ -796,6 +794,12 @@ header {
   fill: #f4f4fd;
 }
 
+.form-checkbox-input {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid;
+}
 .ch bx-link {
   color: #4d5ae5;
 }
@@ -814,14 +818,26 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
+  
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.form-checkbox-icon:hover {
+  fill: #ffffff;
+
+}
+
+.modal-form-button button {
+  cursor: pointer;
+}
+
+
 .modal-form-button:hover,
 .modal-form-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: none;
 }
