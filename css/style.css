@@ -818,5 +818,5 @@ header {
 .modal-form-button:hover,
 .modal-form-button:focus {
   color: #ffffff;
-  background-color: #404bbf visually-hidden form-checkbox-input;
+  background-color: #404bbf;
 }
