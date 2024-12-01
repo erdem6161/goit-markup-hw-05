@@ -818,7 +818,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  
+  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
@@ -830,9 +830,7 @@ header {
 
 }
 
-.modal-form-button button {
-  cursor: pointer;
-}
+
 
 
 .modal-form-button:hover,
